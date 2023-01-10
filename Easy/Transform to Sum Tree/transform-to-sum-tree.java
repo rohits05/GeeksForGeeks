@@ -141,7 +141,7 @@ class Solution{
         int a = 0, b = 0;
         if(root.left != null) a = findSum(root.left);
         if(root.right != null) b = findSum(root.right);
-        root.data = a+b;
+        root.data = a + b;
         
         return (root.data) + currVal;
     }
